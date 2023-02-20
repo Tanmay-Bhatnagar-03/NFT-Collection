@@ -12,4 +12,4 @@ export default function handler(req, res) {
       description: "NFT collection depicting the culture of Brahmaputra Hostel",
       image: image_url + tokenId + ".png",
     });
-  }
+  } 
