@@ -19,7 +19,7 @@ contract CryptoDevs is ERC721Enumerable, Ownable {
     bool public _paused;
 
     // max number of CryptoDevs
-    uint256 public maxTokenIds = 20;
+    uint256 public maxTokenIds = 1;
 
     // total number of tokenIds minted
     uint256 public tokenIds;
@@ -65,7 +65,7 @@ contract CryptoDevs is ERC721Enumerable, Ownable {
     function presaleMint() public payable onlyWhenNotPaused {
         require(presaleStarted && block.timestamp < presaleEnded, "Presale is not running");
         require(whitelist.whitelistedAddresses(msg.sender), "You are not whitelisted");
-        require(tokenIds < maxTokenIds, "Exceeded maximum Crypto Devs supply");
+        require(tokenIds < maxTokenIds, "Exceeded maximum Brahmaputra supply");
         require(msg.value >= _price, "Ether sent is not correct");
         tokenIds += 1;
         //_safeMint is a safer version of the _mint function as it ensures that
