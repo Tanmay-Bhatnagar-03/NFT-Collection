@@ -358,7 +358,7 @@ export default function Home() {
             Its an NFT collection potraying the culture of Brahmaputra Hostel.
           </div>
           <div className={styles.description}>
-            {tokenIdsMinted}/20 have been minted
+            {tokenIdsMinted}/1 have been minted
           </div>
           {renderButton()}
         </div>
