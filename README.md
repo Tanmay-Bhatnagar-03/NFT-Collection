@@ -23,7 +23,7 @@ The website is built such that if we want to launch a new collection, the old co
 - [x] The total supply of NFTs has been set to 1 but can be changed according to owner's discretion.
 - [x] On clicking one button, an NFT can be minted to your wallet address.
 - [x] NFT holders have to be given special privileges such as in gaming, future NFTs of the collection, future decisions in NFT Collection, etc.
-- [ ] Host the NFT metadata on a decentralized platform such as `IPFS`.
+- [ ] Host the NFT metadata on a decentralized platform such as [IPFS](https://ipfs.tech/).
 
 ## Contribution
 
